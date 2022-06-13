@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeeManagement.Database\EmployeeManagement.Database.csproj" />
+    <ProjectReference Include="..\EmployeeManagement.Repository.Abstractions\EmployeeManagement.Repository.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
